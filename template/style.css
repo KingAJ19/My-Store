@@ -27,6 +27,14 @@ main{
     grid-area: main;
     padding: 1rem;
 }
+h1{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
 footer{
     grid-area: footer;
     background-color: #2a2b2b;
@@ -57,4 +65,31 @@ a.brand{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+img{
+    border-radius: 0.5rem;
+}
+img.medium{
+    max-width: 29rem;
+    width: 100%;
+}
+.card{
+    border: 0.1rem grey solid;
+    background-color: #fff;
+    border-radius: 0.7rem;
+    margin: 1rem;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-body > *{
+    margin-bottom: 0.3rem;
+}
+.price{
+    font-size: 2rem;
+}
+
+.rating span{
+    color: #f0c040;
+    margin: 0.1rem;
 }
