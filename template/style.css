@@ -35,6 +35,9 @@ h2{
     font-size: 1.6rem;
     padding: 1rem 0;
 }
+h2:hover{
+    color: black;
+}
 footer{
     grid-area: footer;
     background-color: #2a2b2b;
