@@ -757,6 +757,16 @@ const data = {
             rating: 5,
             numReviews: 1,
             description: 'Adidas ZX'
+        },
+        {
+            _id: '69',
+            name: 'Adidas Sandals',
+            category: 'Hoodies',
+            image: './images/Adidas/Adidas-Sandals.jpg',
+            price: 300,
+            rating: 2,
+            numReviews: 0,
+            description: 'Adidas Sandals'
         }
     ]
 }
