@@ -637,6 +637,86 @@ const data = {
             rating: 4,
             numReviews: 0,
             description: 'Salvatore Glasses: Black'
+        },
+        {
+            _id: '57',
+            name: 'Blue Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Blue-Hoodie.jpg',
+            price: 500,
+            rating: 5,
+            numReviews: 2,
+            description: 'Hoodie: Blue'
+        },
+        {
+             _id: '58',
+            name: 'Butterfly Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Butterfly-Hoodie.jpg',
+            price: 550,
+            rating: 4.5,
+            numReviews: 4,
+            description: 'Hoodie: White'
+        },
+        {
+            _id: '59',
+            name: 'Grey Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Grey-Hoodie.jpg',
+            price: 300,
+            rating: 3,
+            numReviews: 1,
+            description: 'Hoodie: Grey'
+        },
+        {
+            _id: '60',
+            name: 'Orange Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Orange-Hoodie.jpg',
+            price: 450,
+            rating: 4,
+            numReviews: 2,
+            description: 'Hoodie: Orange'
+        },
+        {
+            _id: '61',
+            name: 'Pink Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Pink-Hoodie.jpg',
+            price: 400,
+            rating: 4,
+            numReviews: 2,
+            description: 'Hoodie: Pink'
+        },
+        {
+            _id: '62',
+            name: 'Red Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Red-Hoodie.jpg',
+            price: 250,
+            rating: 3,
+            numReviews: 0,
+            description: 'Hoodie: Red'
+        },
+        {
+            _id: '63',
+            name: 'Colorful Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Paint-Hoodies.jpg',
+            price: 600,
+            rating: 5,
+            numReviews: 4,
+            description: 'Hoodie: Colorful'
+        },
+        {
+            _id: '64',
+            name: 'Champion Hoodie',
+            category: 'Hoodies',
+            image: './images/Hoodies/Normal/Champion-Hoodie.jpg',
+            price: 800,
+            rating: 5,
+            numReviews: 1,
+            description: 'Hoodie: Champion'
         }
     ]
 }
