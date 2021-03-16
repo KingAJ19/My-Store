@@ -311,10 +311,172 @@ const data = {
         {
             _id: '26',
             name: 'Tsikolia Seven Watch',
-            category: 'Soccer Jerseys',
+            category: 'Watches',
             image: './images/Watches/Tsikolia-Seven.jpg',
             price: 800,
             rating: 5,
+            numReviews: 2,
+            description: 'Tsikolia Seven Watch'
+        },
+        {
+            _id: '27',
+            name: 'Candino Swiss Watch',
+            category: 'Watches',
+            image: './images/Watches/Candino-Swiss.jpg',
+            price: 400,
+            rating: 3.2,
+            numReviews: 1,
+            description: 'Candino Swiss Watch'
+        },
+        {
+            _id: '28',
+            name: 'Candino Swiss Watch',
+            category: 'Watches',
+            image: './images/Watches/Festina-Prestige.jpg',
+            price: 310,
+            rating: 3.5,
+            numReviews: 3,
+            description: 'Festina Prestige Watch'
+        },
+        {
+            _id: '29',
+            name: 'Fitness Tracker Watch',
+            category: 'Watches',
+            image: './images/Watches/Fitness-Tracker-Watch.jpg',
+            price: 370,
+            rating: 3.1,
+            numReviews: 2,
+            description: 'Fitness Tracker Watch'
+        },
+        {
+             _id: '30',
+            name: 'Quartz Classic Watch',
+            category: 'Watches',
+            image: './images/Watches/Quartz-Classic.jpg',
+            price: 200,
+            rating: 2.0,
+            numReviews: 0,
+            description: 'Quartz Classic Watch'
+        },
+        {
+             _id: '31',
+            name: 'Silver Watch',
+            category: 'Watches',
+            image: './images/Watches/Silver-Watch.jpg',
+            price: 300,
+            rating: 3,
+            numReviews: 1,
+            description: 'Silver Watch'
+        },
+        {
+             _id: '32',
+            name: 'Smart Watch',
+            category: 'Watches',
+            image: './images/Watches/Smart-Watch.jpg',
+            price: 380,
+            rating: 3.4,
+            numReviews: 5,
+            description: 'Smart Watch'
+        },
+        {
+             _id: '31',
+            name: 'Beats By Dre Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Beats-Headphones.jpg',
+            price: 500,
+            rating: 4.7,
+            numReviews: 8,
+            description: 'Beats By Dre Headphones: Black'
+        },
+        {
+             _id: '32',
+            name: 'Boat Boom Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Boat-Boom-Headphones.jpg',
+            price: 650,
+            rating: 5,
+            numReviews: 7,
+            description: 'Boat Boom Headphones: Black & Blue'
+        },
+        {
+             _id: '33',
+            name: 'Bose SoundLink Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Bose-SoundLink-Headphones.jpeg',
+            price: 400,
+            rating: 4.2,
+            numReviews: 3,
+            description: 'Bose SoundLink Headphones: Black'
+        },
+        {
+             _id: '34',
+            name: 'HiFi Headphones',
+            category: 'Headphones',
+            image: './images/Watches/HiFi-Headphones.jpg',
+            price: 300,
+            rating: 3.1,
+            numReviews: 3,
+            description: 'HiFi Headphones: Black & Grey'
+        },
+        {
+             _id: '35',
+            name: 'Adidas Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Adidas-RPTO1-Headphones.jpg',
+            price: 310,
+            rating: 3,
+            numReviews: 2,
+            description: 'Adidas Headphones: Black'
+        },
+        {
+             _id: '36',
+            name: 'Koss KPH30 Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Koss-KPH30-Headphones.jpg',
+            price: 370,
+            rating: 2.9,
+            numReviews: 2,
+            description: 'Koss KPH30 Headphones: Grey'
+        },
+        {
+             _id: '37',
+            name: 'Microsoft Surface Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Microsoft-Surface-Headphones.jpg',
+            price: 420,
+            rating: 4.1,
+            numReviews: 6,
+            description: 'Microsoft Surface Headphones: White'
+        },
+        {
+             _id: '38',
+            name: 'Volkano Pulse Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Volkano-Impulse.jpg',
+            price: 300,
+            rating: 2.7,
+            numReviews: 3,
+            description: 'Volkano Pulse Headphones: Black'
+        },
+        {
+             _id: '39',
+            name: 'XCD Headphones',
+            category: 'Headphones',
+            image: './images/Watches/XCD-Headphones.jpg',
+            price: 120,
+            rating: 2.1,
+            numReviews: 1,
+            description: 'XCD Headphones: Black'
+        },
+        {
+             _id: '40',
+            name: 'Montblanc MB01 Headphones',
+            category: 'Headphones',
+            image: './images/Watches/Montblanc-MB01.jpg',
+            price: 100,
+            rating: 2,
+            numReviews: 0,
+            description: 'Beats By Dre Headphones: Maroon & Gold'
         }
     ]
 }
