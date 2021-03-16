@@ -817,6 +817,66 @@ const data = {
             rating: 5,
             numReviews: 3,
             description: 'Nike Air Max'
+        },
+        {
+             _id: '75',
+            name: 'Air Jordan ADG',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-ADG.jpg',
+            price: 600,
+            rating: 5,
+            numReviews: 2,
+            description: 'Air Jordan ADG'
+        },
+        {
+            _id: '76',
+            name: 'Air Jordan Flight',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-Flight.jpg',
+            price: 550,
+            rating: 4,
+            numReviews: 0,
+            description: 'Air Jordan Flight'
+        },
+        {
+            _id: '77',
+            name: 'Air Jordan Retro 6',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-Retro6.jpg',
+            price: 800,
+            rating: 5,
+            numReviews: 1,
+            description: 'Air Jordan Retro 6'
+        },
+        {
+            _id: '78',
+            name: 'Air Jordan XI',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-XI.jpg',
+            price: 300,
+            rating: 3,
+            numReviews: 2,
+            description: 'Air Jordan XI'
+        },
+        {
+            _id: '79',
+            name: 'Air Jordan High Dior',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-High-Dior.jpg',
+            price: 450,
+            rating: 3,
+            numReviews: 0,
+            description: 'Air Jordan High Dior'
+        },
+        {
+            _id: '80',
+            name: 'Air Jordan Retro 7',
+            category: 'Shoes',
+            image: './images/Air Jordan/Air-Jordan-Retro7.jpg',
+            price: 980,
+            rating: 5,
+            numReviews: 5,
+            description: 'Air Jordan Retro 7'
         }
     ]
 }
