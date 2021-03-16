@@ -721,7 +721,7 @@ const data = {
         {
             _id: '65',
             name: 'Adidas Marvel',
-            category: 'Hoodies',
+            category: 'Shoes',
             image: './images/Adidas/Adidas-Marvel.jpg',
             price: 700,
             rating: 4,
@@ -731,7 +731,7 @@ const data = {
         {
             _id: '66',
             name: 'Adidas NMD',
-            category: 'Hoodies',
+            category: 'Shoes',
             image: './images/Adidas/Adidas-NMD.jpg',
             price: 800,
             rating: 5,
@@ -741,7 +741,7 @@ const data = {
         {
             _id: '67',
             name: 'Adidas XLPR',
-            category: 'Hoodies',
+            category: 'Shoes',
             image: './images/Adidas/Adidas-XLPR.jpg',
             price: 400,
             rating: 3,
@@ -751,7 +751,7 @@ const data = {
         {
             _id: '68',
             name: 'Adidas ZX',
-            category: 'Hoodies',
+            category: 'Shoes',
             image: './images/Adidas/Adidas-ZX.jpg',
             price: 450,
             rating: 5,
@@ -761,12 +761,62 @@ const data = {
         {
             _id: '69',
             name: 'Adidas Sandals',
-            category: 'Hoodies',
+            category: 'Shoes',
             image: './images/Adidas/Adidas-Sandals.jpg',
             price: 300,
             rating: 2,
             numReviews: 0,
             description: 'Adidas Sandals'
+        },
+        {
+            _id: '70',
+            name: 'Nike Air Max Axis',
+            category: 'Shoes',
+            image: './images/Nike/Nike-Air-Max-Axis.jpg',
+            price: 400,
+            rating: 5,
+            numReviews: 1,
+            description: 'Nike Air Max'
+        },
+        {
+            _id: '71',
+            name: 'Nike Air Max Command',
+            category: 'Shoes',
+            image: './images/Nike/Nike-Air-Max-Command.jpg',
+            price: 450,
+            rating: 4.5,
+            numReviews: 1,
+            description: 'Nike Air Max'
+        },
+        {
+            _id: '72',
+            name: 'Nike Air Max Excee',
+            category: 'Shoes',
+            image: './images/Nike/Nike-Air-Max-Excee.jpg',
+            price: 750,
+            rating: 3,
+            numReviews: 0,
+            description: 'Nike Air Max'
+        },
+        {
+            _id: '73',
+            name: 'Nike Air Max Impact',
+            category: 'Shoes',
+            image: './images/Nike/Nike-Air-Max-Impact.jpg',
+            price: 600,
+            rating: 4,
+            numReviews: 0,
+            description: 'Nike Air Max'
+        },
+        {
+            _id: '74',
+            name: 'Nike Air Max Zephyr',
+            category: 'Shoes',
+            image: './images/Nike/Nike-Air-Max-Zephyr.jpg',
+            price: 850,
+            rating: 5,
+            numReviews: 3,
+            description: 'Nike Air Max'
         }
     ]
 }
