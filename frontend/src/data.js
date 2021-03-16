@@ -717,6 +717,46 @@ const data = {
             rating: 5,
             numReviews: 1,
             description: 'Hoodie: Champion'
+        },
+        {
+            _id: '65',
+            name: 'Adidas Marvel',
+            category: 'Hoodies',
+            image: './images/Adidas/Adidas-Marvel.jpg',
+            price: 700,
+            rating: 4,
+            numReviews: 3,
+            description: 'Adidas Marvel'
+        },
+        {
+            _id: '66',
+            name: 'Adidas NMD',
+            category: 'Hoodies',
+            image: './images/Adidas/Adidas-NMD.jpg',
+            price: 800,
+            rating: 5,
+            numReviews: 0,
+            description: 'Adidas NMD'
+        },
+        {
+            _id: '67',
+            name: 'Adidas XLPR',
+            category: 'Hoodies',
+            image: './images/Adidas/Adidas-XLPR.jpg',
+            price: 400,
+            rating: 3,
+            numReviews: 0,
+            description: 'Adidas XLPR'
+        },
+        {
+            _id: '68',
+            name: 'Adidas ZX',
+            category: 'Hoodies',
+            image: './images/Adidas/Adidas-ZX.jpg',
+            price: 450,
+            rating: 5,
+            numReviews: 1,
+            description: 'Adidas ZX'
         }
     ]
 }
