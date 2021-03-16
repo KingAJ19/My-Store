@@ -477,6 +477,106 @@ const data = {
             rating: 2,
             numReviews: 0,
             description: 'Beats By Dre Headphones: Maroon & Gold'
+        },
+        {
+             _id: '41',
+            name: 'Baseball Hat',
+            category: 'Hats',
+            image: './images/Hats/Baseball-Hat.jpg',
+            price: 70,
+            rating: 2.5,
+            numReviews: 0,
+            description: 'Baseball Hat: Black'
+        },
+        {
+             _id: '42',
+            name: 'Beanie',
+            category: 'Hats',
+            image: './images/Hats/Beanie-Hat.jpg',
+            price: 90,
+            rating: 3,
+            numReviews: 0,
+            description: 'Beanie: Teal'
+        },
+        {
+             _id: '43',
+            name: 'Bucket Hat',
+            category: 'Hats',
+            image: './images/Hats/Bucket-Hat.jpg',
+            price: 50,
+            rating: 3,
+            numReviews: 0,
+            description: 'Bucket Hat: Black'
+        },
+        {
+           _id: '44',
+            name: 'Cricket Hat',
+            category: 'Hats',
+            image: './images/Hats/Cricket-Hat.jpg',
+            price: 70,
+            rating: 3.5,
+            numReviews: 0,
+            description: 'Cricket Hat: Blue'
+        },
+        {
+            _id: '45',
+            name: 'Daiwa Cap',
+            category: 'Hats',
+            image: './images/Hats/Daiwa-Cap.jpg',
+            price: 150,
+            rating: 4,
+            numReviews: 0,
+            description: 'Daiwa Cap: Black'
+        },
+        {
+            _id: '46',
+            name: 'Fisherman Hat',
+            category: 'Hats',
+            image: './images/Hats/Fisherman-Hat.jpeg',
+            price: 100,
+            rating: 3,
+            numReviews: 0,
+            description: 'Fisherman Hat: Black'
+        },
+        {
+            _id: '47',
+            name: 'Summer Hat',
+            category: 'Hats',
+            image: './images/Hats/Summer-Hats.jpg',
+            price: 80,
+            rating: 4.2,
+            numReviews: 0,
+            description: 'Summer Hat: Brown'
+        },
+        {
+            _id: '48',
+            name: 'Sun Hat',
+            category: 'Hats',
+            image: './images/Hats/Sun-Hat.jpg',
+            price: 40,
+            rating: 2,
+            numReviews: 0,
+            description: 'Sun Hat: Red'
+        },
+        {
+            _id: '49',
+            name: 'Trilby Hat',
+            category: 'Hats',
+            image: './images/Hats/Trilby-Hat.jpg',
+            price: 150,
+            rating: 4,
+            numReviews: 0,
+            description: 'Trilby Hat: Brown'
+        },
+        {
+            _id: '50',
+            name: 'Trucker Hat',
+            category: 'Hats',
+            image: './images/Hats/Trucker-Hat.jpg',
+            price: 90,
+            rating: 3,
+            numReviews: 0,
+            description: 'Trucker Hat: Gold'
         }
     ]
 }
