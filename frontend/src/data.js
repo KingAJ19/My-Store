@@ -877,6 +877,76 @@ const data = {
             rating: 5,
             numReviews: 5,
             description: 'Air Jordan Retro 7'
+        },
+        {
+            _id: '81',
+            name: 'Puma Arnold',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Arnold.jpg',
+            price: 400,
+            rating: 3,
+            numReviews: 0,
+            description: 'Puma Arnold'
+        },
+        {
+            _id: '82',
+            name: 'Puma Ferrari',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Ferrari.jpg',
+            price: 900,
+            rating: 5,
+            numReviews: 2,
+            description: 'Puma Ferrari'
+        },
+        {
+            _id: '83',
+            name: 'Puma Motorsport',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Motorsport.jpg',
+            price: 500,
+            rating: 4,
+            numReviews: 2,
+            description: 'Puma Motorsport'
+        },
+        {
+            _id: '84',
+            name: 'Puma Optic',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Optic.jpg',
+            price: 350,
+            rating: 4,
+            numReviews: 2,
+            description: 'Puma Optic'
+        },
+        {
+            _id: '85',
+            name: 'Puma RSX',
+            category: 'Shoes',
+            image: './images/Puma/Puma-RSX.jpg',
+            price: 550,
+            rating: 4,
+            numReviews: 2,
+            description: 'Puma RSX'
+        },
+        {
+            _id: '86',
+            name: 'Puma Viz',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Viz.jpg',
+            price: 600,
+            rating: 5,
+            numReviews: 0,
+            description: 'Puma Viz'
+        },
+        {
+            _id: '87',
+            name: 'Puma Shuffle',
+            category: 'Shoes',
+            image: './images/Puma/Puma-Shuffle.jpg',
+            price: 500,
+            rating: 4.5,
+            numReviews: 2,
+            description: 'Puma Shuffle'
         }
     ]
 }
