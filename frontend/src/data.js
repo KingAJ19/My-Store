@@ -577,6 +577,66 @@ const data = {
             rating: 3,
             numReviews: 0,
             description: 'Trucker Hat: Gold'
+        },
+        {
+            _id: '51',
+            name: 'Asteri Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Asteri-Glasses.jpg',
+            price: 290,
+            rating: 3,
+            numReviews: 0,
+            description: 'Asteri Glasses: Black'
+        },
+        {
+            _id: '52',
+            name: 'Camo Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Camo-Glasses.jpg',
+            price: 150,
+            rating: 4,
+            numReviews: 0,
+            description: 'Camo Glasses'
+        },
+        {
+            _id: '53',
+            name: 'Dior Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Dior-Glasses.jpg',
+            price: 400,
+            rating: 5,
+            numReviews: 0,
+            description: 'Dior Glasses: Black & Gold'
+        },
+        {
+            _id: '54',
+            name: 'Paige Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Paige-Glasses.jpg',
+            price: 300,
+            rating: 4,
+            numReviews: 0,
+            description: 'Paige Glasses: Blue'
+        },
+        {
+            _id: '55',
+            name: 'Safety Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Safety-Glasses.jpg',
+            price: 100,
+            rating: 2,
+            numReviews: 0,
+            description: 'Safety Glasses: Black & Gold'
+        },
+        {
+            _id: '56',
+            name: 'Salvatore Glasses',
+            category: 'Glasses',
+            image: './images/Hats/Salvatore-Glasses.jpg',
+            price: 400,
+            rating: 4,
+            numReviews: 0,
+            description: 'Salvatore Glasses: Black'
         }
     ]
 }
