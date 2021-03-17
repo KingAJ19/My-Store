@@ -6,11 +6,11 @@ function App() {
     <div className="grid-container">
         <header className="row">
             <div>
-                <a className="brand" href="index.html">Anele's Store</a>
+                <a className="brand" href="/">Anele's Store</a>
             </div>
             <div>
-                <a href="cart.html">Cart</a>
-                <a href="signin.html">Sign In</a>
+                <a href="/cart">Cart</a>
+                <a href="/signin">Sign In</a>
             </div>
         </header>
         <main>
@@ -42,7 +42,7 @@ function App() {
             </div>
         </main>
         <footer className="row center">
-            All Rights Reserved
+            © All Rights Reserved
         </footer>
     </div>
   );
