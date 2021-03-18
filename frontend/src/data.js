@@ -6,6 +6,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Kobe-Jersey.jpg',
             price: 400,
+            countInStock: 5,
             brand: 'Nike',
             rating: 4.5,
             numReviews: 10,
@@ -17,6 +18,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Butler-Jersey.jpg',
             price: 350,
+            countInStock: 16,
             brand: 'Adidas',
             rating: 3.9,
             numReviews: 3,
@@ -28,6 +30,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Curry-Jersey.jpg',
             price: 500,
+            countInStock: 14,
             brand: 'Nike',
             rating: 4.7,
             numReviews: 15,
@@ -39,6 +42,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Embiid-Jersey.jpg',
             price: 300,
+            countInStock: 30,
             brand: 'Nike',
             rating: 4.1,
             numReviews: 7,
@@ -50,6 +54,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Giannis-Jersey.jpg',
             price: 600,
+            countInStock: 21,
             brand: 'Nike',
             rating: 4.1,
             numReviews: 12,
@@ -61,6 +66,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Irving-Jersey.jpg',
             price: 320,
+            countInStock: 11,
             brand: 'Nike',
             rating: 3.2,
             numReviews: 6,
@@ -72,6 +78,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Jordan-Jersey.jpg',
             price: 700,
+            countInStock: 8,
             brand: 'Jordan',
             rating: 5,
             numReviews: 11,
@@ -83,6 +90,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Kawhi-Jersey.jpg',
             price: 390,
+            countInStock: 9,
             brand: 'Nike',
             rating: 4.3,
             numReviews: 9,
@@ -94,6 +102,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/LeBron-Jersey.jpg',
             price: 500,
+            countInStock: 3,
             brand: 'Nike',
             rating: 5,
             numReviews: 16,
@@ -105,6 +114,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Lillard-Jersey.jpg',
             price: 290,
+            countInStock: 16,
             brand: 'Nike',
             rating: 3.7,
             numReviews: 4,
@@ -116,6 +126,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Towns-Jersey.jpg',
             price: 340,
+            countInStock: 18,
             brand: 'Nike',
             rating: 3.2,
             numReviews: 6,
@@ -127,6 +138,7 @@ const data = {
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Westbrook-Jersey.jpg',
             price: 310,
+            countInStock: 9,
             brand: 'Nike',
             rating: 4,
             numReviews: 10,
@@ -138,6 +150,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Adama-Jersey.jpg',
             price: 300,
+            countInStock: 14,
             brand: 'Nike',
             rating: 3.1,
             numReviews: 4,
@@ -149,6 +162,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Aubameyang-Jersey.jpg',
             price: 360,
+            countInStock: 8,
             brand: 'Nike',
             rating: 3.7,
             numReviews: 6,
@@ -160,6 +174,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Bruno-Jersey.jpg',
             price: 480,
+            countInStock: 2,
             brand: 'Nike',
             rating: 4.5,
             numReviews: 11,
@@ -171,6 +186,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/DeBruyne-Jersey.jpg',
             price: 360,
+            countInStock: 3,
             brand: 'Nike',
             rating: 3.7,
             numReviews: 6,
@@ -182,6 +198,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Haaland-Jersey.jpg',
             price: 600,
+            countInStock: 0,
             brand: 'Nike',
             rating: 5,
             numReviews: 15,
@@ -193,6 +210,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ings-Jersey.jpg',
             price: 300,
+            countInStock: 6,
             brand: 'Nike',
             rating: 3.2,
             numReviews: 8,
@@ -204,6 +222,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Lewandowski-Jersey.jpg',
             price: 550,
+            countInStock: 0,
             brand: 'Nike',
             rating: 4.7,
             numReviews: 13,
@@ -215,6 +234,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Messi-Jersey.jpg',
             price: 650,
+            countInStock: 1,
             brand: 'Nike',
             rating: 5,
             numReviews: 16,
@@ -226,6 +246,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Neymar-Jersey.jpg',
             price: 400,
+            countInStock: 7,
             brand: 'Nike',
             rating: 4.1,
             numReviews: 9,
@@ -237,6 +258,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ramos-Jersey.jpg',
             price: 390,
+            countInStock: 56,
             brand: 'Nike',
             rating: 3.8,
             numReviews: 7,
@@ -248,6 +270,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Richarlison-Jersey.jpg',
             price: 320,
+            countInStock: 4,
             brand: 'Nike',
             rating: 3.1,
             numReviews: 6,
@@ -259,6 +282,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ronaldo-Jersey.jpg',
             price: 700,
+            countInStock: 0,
             brand: 'Nike',
             rating: 5,
             numReviews: 15,
@@ -270,6 +294,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Salah-Jersey.jpg',
             price: 400,
+            countInStock: 0,
             brand: 'Nike',
             rating: 4.1,
             numReviews: 10,
@@ -281,6 +306,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Son-Jersey.jpg',
             price: 500,
+            countInStock: 7,
             brand: 'Nike',
             rating: 5,
             numReviews: 12,
@@ -292,6 +318,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Vardy-Jersey.jpg',
             price: 320,
+            countInStock: 5,
             brand: 'Nike',
             rating: 3.2,
             numReviews: 7,
@@ -303,6 +330,7 @@ const data = {
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Werner-Jersey.jpg',
             price: 300,
+            countInStock: 34,
             brand: 'Nike',
             rating: 2.9,
             numReviews: 3,
@@ -314,6 +342,7 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Tsikolia-Seven.jpg',
             price: 800,
+            countInStock: 3,
             rating: 5,
             numReviews: 2,
             description: 'Tsikolia Seven Watch'
@@ -324,16 +353,18 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Candino-Swiss.jpg',
             price: 400,
+            countInStock: 1,
             rating: 3.2,
             numReviews: 1,
             description: 'Candino Swiss Watch'
         },
         {
             _id: '28',
-            name: 'Candino Swiss Watch',
+            name: 'Festina Prestige Watch',
             category: 'Watches',
             image: '../images/Watches/Festina-Prestige.jpg',
             price: 310,
+            countInStock: 0,
             rating: 3.5,
             numReviews: 3,
             description: 'Festina Prestige Watch'
@@ -344,6 +375,7 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Fitness-Tracker-Watch.jpg',
             price: 370,
+            countInStock: 12,
             rating: 3.1,
             numReviews: 2,
             description: 'Fitness Tracker Watch'
@@ -354,6 +386,7 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Quartz-Classic.jpg',
             price: 200,
+            countInStock: 8,
             rating: 2.0,
             numReviews: 0,
             description: 'Quartz Classic Watch'
@@ -364,6 +397,7 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Silver-Watch.jpg',
             price: 300,
+            countInStock: 23,
             rating: 3,
             numReviews: 1,
             description: 'Silver Watch'
@@ -374,6 +408,7 @@ const data = {
             category: 'Watches',
             image: '../images/Watches/Smart-Watch.jpg',
             price: 380,
+            countInStock: 10,
             rating: 3.4,
             numReviews: 5,
             description: 'Smart Watch'
@@ -384,6 +419,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Beats-Headphones.jpg',
             price: 500,
+            countInStock: 17,
             rating: 4.7,
             numReviews: 8,
             description: 'Beats By Dre Headphones: Black'
@@ -394,6 +430,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Boat-Boom-Headphones.jpg',
             price: 650,
+            countInStock: 0,
             rating: 5,
             numReviews: 7,
             description: 'Boat Boom Headphones: Black & Blue'
@@ -404,6 +441,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Bose-SoundLink-Headphones..jpeg',
             price: 400,
+            countInStock: 11,
             rating: 4.2,
             numReviews: 3,
             description: 'Bose SoundLink Headphones: Black'
@@ -414,6 +452,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/HiFi-Headphones.jpg',
             price: 300,
+            countInStock: 17,
             rating: 3.1,
             numReviews: 3,
             description: 'HiFi Headphones: Black & Grey'
@@ -424,6 +463,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Adidas-RPT01-Headphones.jpg',
             price: 310,
+            countInStock: 0,
             rating: 3,
             numReviews: 2,
             description: 'Adidas Headphones: Black'
@@ -434,6 +474,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Koss-KPH30-Headphones.jpg',
             price: 370,
+            countInStock: 100,
             rating: 2.9,
             numReviews: 2,
             description: 'Koss KPH30 Headphones: Grey'
@@ -444,6 +485,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Microsoft-Surface-Headphones.jpg',
             price: 420,
+            countInStock: 12,
             rating: 4.1,
             numReviews: 6,
             description: 'Microsoft Surface Headphones: White'
@@ -454,6 +496,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Volkano-Impulse.jpg',
             price: 300,
+            countInStock: 2,
             rating: 2.7,
             numReviews: 3,
             description: 'Volkano Pulse Headphones: Black'
@@ -464,6 +507,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/XCD-Headphones.jpg',
             price: 120,
+            countInStock: 7,
             rating: 2.1,
             numReviews: 1,
             description: 'XCD Headphones: Black'
@@ -474,6 +518,7 @@ const data = {
             category: 'Headphones',
             image: '../images/Headphones/Montblanc-MB01.jpg',
             price: 100,
+            countInStock: 4,
             rating: 2,
             numReviews: 0,
             description: 'Beats By Dre Headphones: Maroon & Gold'
@@ -484,6 +529,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Baseball-Hat.jpg',
             price: 70,
+            countInStock: 3,
             rating: 2.5,
             numReviews: 0,
             description: 'Baseball Hat: Black'
@@ -494,6 +540,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Beanie-Hat.jpg',
             price: 90,
+            countInStock: 12,
             rating: 3,
             numReviews: 0,
             description: 'Beanie: Teal'
@@ -504,6 +551,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Bucket-Hat.jpg',
             price: 50,
+            countInStock: 0,
             rating: 3,
             numReviews: 0,
             description: 'Bucket Hat: Black'
@@ -514,6 +562,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Cricket-Hat.jpg',
             price: 70,
+            countInStock: 1,
             rating: 3.5,
             numReviews: 0,
             description: 'Cricket Hat: Blue'
@@ -524,6 +573,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Daiwa-Cap.jpg',
             price: 150,
+            countInStock: 22,
             rating: 4,
             numReviews: 0,
             description: 'Daiwa Cap: Black'
@@ -534,6 +584,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Fisherman-Hat.jpeg',
             price: 100,
+            countInStock: 3,
             rating: 3,
             numReviews: 0,
             description: 'Fisherman Hat: Black'
@@ -544,6 +595,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Summer-Hats.jpg',
             price: 80,
+            countInStock: 8,
             rating: 4.2,
             numReviews: 0,
             description: 'Summer Hat: Brown'
@@ -554,6 +606,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Sun-Hats.jpg',
             price: 40,
+            countInStock: 7,
             rating: 2,
             numReviews: 0,
             description: 'Sun Hat: Red'
@@ -564,6 +617,7 @@ const data = {
             category: 'Hats',
             image: '../images/Hats/Trilby-Hat.jpg',
             price: 150,
+            countInStock: 11,
             rating: 4,
             numReviews: 0,
             description: 'Trilby Hat: Brown'
@@ -573,7 +627,8 @@ const data = {
             name: 'Trucker Hat',
             category: 'Hats',
             image: '../images/Hats/Trucker-Hat.jpg',
-            price: 90,
+            price: 90, 
+            countInStock: 1,
             rating: 3,
             numReviews: 0,
             description: 'Trucker Hat: Gold'
@@ -584,6 +639,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Asteri-Glasses.jpg',
             price: 290,
+            countInStock: 17,
             rating: 3,
             numReviews: 0,
             description: 'Asteri Glasses: Black'
@@ -594,6 +650,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Camo-Glasses.jpg',
             price: 150,
+            countInStock: 15,
             rating: 4,
             numReviews: 0,
             description: 'Camo Glasses'
@@ -604,6 +661,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Dior-Glasses.jpg',
             price: 400,
+            countInStock: 13,
             rating: 5,
             numReviews: 0,
             description: 'Dior Glasses: Black & Gold'
@@ -614,6 +672,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Paige-Glasses.jpg',
             price: 300,
+            countInStock: 17,
             rating: 4,
             numReviews: 0,
             description: 'Paige Glasses: Blue'
@@ -624,6 +683,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Safety-Glasses.jpg',
             price: 100,
+            countInStock: 16,
             rating: 2,
             numReviews: 0,
             description: 'Safety Glasses: Black & Gold'
@@ -634,6 +694,7 @@ const data = {
             category: 'Glasses',
             image: '../images/Glasses/Salvatore-Glasses.jpg',
             price: 400,
+            countInStock: 19,
             rating: 4,
             numReviews: 0,
             description: 'Salvatore Glasses: Black'
@@ -644,6 +705,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Blue-Hoodie.jpg',
             price: 500,
+            countInStock: 21,
             rating: 5,
             numReviews: 2,
             description: 'Hoodie: Blue'
@@ -654,6 +716,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Butterfly-Hoodie.jpg',
             price: 550,
+            countInStock: 8,
             rating: 4.5,
             numReviews: 4,
             description: 'Hoodie: White'
@@ -664,6 +727,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Grey-Hoodie.jpg',
             price: 300,
+            countInStock: 100,
             rating: 3,
             numReviews: 1,
             description: 'Hoodie: Grey'
@@ -674,6 +738,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Orange-Hoodie.jpg',
             price: 450,
+            countInStock: 76,
             rating: 4,
             numReviews: 2,
             description: 'Hoodie: Orange'
@@ -684,6 +749,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Pink-Hoodie.jpg',
             price: 400,
+            countInStock: 55,
             rating: 4,
             numReviews: 2,
             description: 'Hoodie: Pink'
@@ -694,6 +760,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Red-Hoodie.jpg',
             price: 250,
+            countInStock: 65,
             rating: 3,
             numReviews: 0,
             description: 'Hoodie: Red'
@@ -704,6 +771,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Paint-Hoodies.jpg',
             price: 600,
+            countInStock: 5,
             rating: 5,
             numReviews: 4,
             description: 'Hoodie: Colorful'
@@ -714,6 +782,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Champion-Hoodie.jpg',
             price: 800,
+            countInStock: 3,
             rating: 5,
             numReviews: 1,
             description: 'Hoodie: Champion'
@@ -724,6 +793,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Adidas/Adidas-Marvel.jpg',
             price: 700,
+            countInStock: 7,
             rating: 4,
             numReviews: 3,
             description: 'Adidas Marvel'
@@ -734,6 +804,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Adidas/Adidas-NMD.jpg',
             price: 800,
+            countInStock: 6,
             rating: 5,
             numReviews: 0,
             description: 'Adidas NMD'
@@ -744,6 +815,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Adidas/Adidas-XLPR.jpg',
             price: 400,
+            countInStock: 12,
             rating: 3,
             numReviews: 0,
             description: 'Adidas XLPR'
@@ -754,6 +826,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Adidas/Adidas-ZX.jpg',
             price: 450,
+            countInStock: 0,
             rating: 5,
             numReviews: 1,
             description: 'Adidas ZX'
@@ -764,6 +837,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Adidas/Adidas-Sandals.jpg',
             price: 300,
+            countInStock: 10,
             rating: 2,
             numReviews: 0,
             description: 'Adidas Sandals'
@@ -774,6 +848,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Nike/Nike-Air-Max-Axis.jpg',
             price: 400,
+            countInStock: 16,
             rating: 5,
             numReviews: 1,
             description: 'Nike Air Max'
@@ -784,6 +859,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Nike/Nike-Air-Max-Command.jpg',
             price: 450,
+            countInStock: 12,
             rating: 4.5,
             numReviews: 1,
             description: 'Nike Air Max'
@@ -794,6 +870,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Nike/Nike-Air-Max-Excee.jpg',
             price: 750,
+            countInStock: 13,
             rating: 3,
             numReviews: 0,
             description: 'Nike Air Max'
@@ -804,6 +881,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Nike/Nike-Air-Max-Impact.jpg',
             price: 600,
+            countInStock: 11,
             rating: 4,
             numReviews: 0,
             description: 'Nike Air Max'
@@ -814,6 +892,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Nike/Nike-Air-Max-Zephyr.jpg',
             price: 850,
+            countInStock: 18,
             rating: 5,
             numReviews: 3,
             description: 'Nike Air Max'
@@ -824,6 +903,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-ADG.jpg',
             price: 600,
+            countInStock: 19,
             rating: 5,
             numReviews: 2,
             description: 'Air Jordan ADG'
@@ -834,6 +914,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-Flight.jpg',
             price: 550,
+            countInStock: 1,
             rating: 4,
             numReviews: 0,
             description: 'Air Jordan Flight'
@@ -844,6 +925,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-Retro6.jpg',
             price: 800,
+            countInStock: 2,
             rating: 5,
             numReviews: 1,
             description: 'Air Jordan Retro 6'
@@ -854,6 +936,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-XI.jpg',
             price: 300,
+            countInStock: 3,
             rating: 3,
             numReviews: 2,
             description: 'Air Jordan XI'
@@ -864,6 +947,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-High-Dior.jpg',
             price: 450,
+            countInStock: 2,
             rating: 3,
             numReviews: 0,
             description: 'Air Jordan High Dior'
@@ -874,6 +958,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Air Jordan/Air-Jordan-Retro7.jpeg',
             price: 980,
+            countInStock: 1,
             rating: 5,
             numReviews: 5,
             description: 'Air Jordan Retro 7'
@@ -884,6 +969,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Arnold.jpg',
             price: 400,
+            countInStock: 2,
             rating: 3,
             numReviews: 0,
             description: 'Puma Arnold'
@@ -894,6 +980,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Ferrari.jpg',
             price: 900,
+            countInStock: 0,
             rating: 5,
             numReviews: 2,
             description: 'Puma Ferrari'
@@ -904,6 +991,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Motorsport.jpg',
             price: 500,
+            countInStock: 13,
             rating: 4,
             numReviews: 2,
             description: 'Puma Motorsport'
@@ -914,6 +1002,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Optic.jpg',
             price: 350,
+            countInStock: 6,
             rating: 4,
             numReviews: 2,
             description: 'Puma Optic'
@@ -924,6 +1013,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-RSX.jpg',
             price: 550,
+            countInStock: 8,
             rating: 4,
             numReviews: 2,
             description: 'Puma RSX'
@@ -934,6 +1024,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Viz.jpg',
             price: 600,
+            countInStock: 0,
             rating: 5,
             numReviews: 0,
             description: 'Puma Viz'
@@ -944,6 +1035,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Shuffle.jpg',
             price: 500,
+            countInStock: 6,
             rating: 4.5,
             numReviews: 2,
             description: 'Puma Shuffle'
