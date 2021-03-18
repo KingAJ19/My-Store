@@ -24,7 +24,7 @@ function App() {
             </div>
         </main>
         <footer className="row center">
-            All Rights Reserved
+            © All Rights Reserved
         </footer>
     </div>
   );
