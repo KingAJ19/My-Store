@@ -84,6 +84,9 @@ button{
   cursor: pointer;
   width: 100%;
 }
+button:hover{
+  border: 0.11rem #2a2b2b solid;
+}
 button.primary{
   background-color: #f0c040;
 }
