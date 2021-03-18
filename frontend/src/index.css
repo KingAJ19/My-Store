@@ -81,6 +81,9 @@ a.brand{
   justify-content: space-between;
   align-items: center;
 }
+.row.top{
+  align-items: flex-start;
+}
 img{
   border-radius: 0.5rem;
 }
