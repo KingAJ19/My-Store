@@ -70,6 +70,26 @@ ul{
 li{
   margin-top: 1rem;
 }
+button{
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-weight: 590;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0c040;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+button.primary{
+  background-color: #f0c040;
+}
+.button.block{
+  width: 100%;
+}
 header a{
   color: white;
   padding: 1rem;
