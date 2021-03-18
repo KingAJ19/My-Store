@@ -128,6 +128,9 @@ img.medium{
   max-width: 29rem;
   width: 100%;
 }
+img.large{
+  width: 100%;
+}
 .card{
   border: 0.1rem grey solid;
   background-color: #fff;
