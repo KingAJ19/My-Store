@@ -28,14 +28,14 @@ export default function ProductScreen(props){
                             <h1>{product.name}</h1>
                         </li>
                         <li>
-                            <Rating rating={product.rating} numReviews={product.numReviews}></Rating>
+                            <Rating rating={product.rating}  numReviews={product.numReviews}></Rating>
                         </li>
                         <li>
                             Price: R{product.price}
                         </li>
                         <li>
                             Description:
-                            <p>{product.description}</p>
+                            <p><i>{product.description}</i></p>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +43,19 @@ export default function ProductScreen(props){
                     <div className="card card-body">
                         <ul>
                             <li>
-                                
+                                <div className="row">
+                                    <div>Price</div>
+                                    <div className="price">R{product.price}</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="row">
+                                    <div>Status</div>
+                                    <div>{product.countInStock>0? <span className="success">In Stock</span>:
+                                    <span className="error">Unavailable</span>
+                                    }
+                                </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
