@@ -30,6 +30,13 @@ export default function ProductScreen(props){
                         <li>
                             <Rating rating={product.rating} numReviews={product.numReviews}></Rating>
                         </li>
+                        <li>
+                            Price: R{product.price}
+                        </li>
+                        <li>
+                            Description:
+                            <p>{product.description}</p>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-1">
