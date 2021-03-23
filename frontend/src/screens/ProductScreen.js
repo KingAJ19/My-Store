@@ -13,8 +13,9 @@ export default function ProductScreen(props){
    const { loading, error, product } = productDetails;
 
     useEffect(() => {
-        dispatchEvent(detailsProduct(productId));
-    }, [dispatch, productId])
+        dispatch(detailsProduct(productId));
+    }, [dispatch, productId]);
+    
     return(
         <div>
             {loading? <LoadingBox></LoadingBox>:
