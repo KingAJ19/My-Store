@@ -370,17 +370,6 @@ const data = {
             description: 'Festina Prestige Watch'
         },
         {
-            _id: '29',
-            name: 'Fitness Tracker Watch',
-            category: 'Watches',
-            image: '../images/Watches/Fitness-Tracker-Watch.jpg',
-            price: 370,
-            countInStock: 12,
-            rating: 3.1,
-            numReviews: 2,
-            description: 'Fitness Tracker Watch'
-        },
-        {
              _id: '30',
             name: 'Quartz Classic Watch',
             category: 'Watches',
@@ -458,17 +447,6 @@ const data = {
             description: 'HiFi Headphones: Black & Grey'
         },
         {
-             _id: '35',
-            name: 'Adidas Headphones',
-            category: 'Headphones',
-            image: '../images/Headphones/Adidas-RPT01-Headphones.jpg',
-            price: 310,
-            countInStock: 0,
-            rating: 3,
-            numReviews: 2,
-            description: 'Adidas Headphones: Black'
-        },
-        {
              _id: '36',
             name: 'Koss KPH30 Headphones',
             category: 'Headphones',
@@ -511,17 +489,6 @@ const data = {
             rating: 2.1,
             numReviews: 1,
             description: 'XCD Headphones: Black'
-        },
-        {
-             _id: '40',
-            name: 'Montblanc MB01 Headphones',
-            category: 'Headphones',
-            image: '../images/Headphones/Montblanc-MB01.jpg',
-            price: 100,
-            countInStock: 4,
-            rating: 2,
-            numReviews: 0,
-            description: 'Beats By Dre Headphones: Maroon & Gold'
         },
         {
              _id: '41',
@@ -711,17 +678,6 @@ const data = {
             description: 'Hoodie: Blue'
         },
         {
-             _id: '58',
-            name: 'Butterfly Hoodie',
-            category: 'Hoodies',
-            image: '../images/Hoodies/Normal/Butterfly-Hoodie.jpg',
-            price: 550,
-            countInStock: 8,
-            rating: 4.5,
-            numReviews: 4,
-            description: 'Hoodie: White'
-        },
-        {
             _id: '59',
             name: 'Grey Hoodie',
             category: 'Hoodies',
@@ -786,182 +742,6 @@ const data = {
             rating: 5,
             numReviews: 1,
             description: 'Hoodie: Champion'
-        },
-        {
-            _id: '65',
-            name: 'Adidas Marvel',
-            category: 'Shoes',
-            image: '../images/Adidas/Adidas-Marvel.jpg',
-            price: 700,
-            countInStock: 7,
-            rating: 4,
-            numReviews: 3,
-            description: 'Adidas Marvel'
-        },
-        {
-            _id: '66',
-            name: 'Adidas NMD',
-            category: 'Shoes',
-            image: '../images/Adidas/Adidas-NMD.jpg',
-            price: 800,
-            countInStock: 6,
-            rating: 5,
-            numReviews: 0,
-            description: 'Adidas NMD'
-        },
-        {
-            _id: '67',
-            name: 'Adidas XLPR',
-            category: 'Shoes',
-            image: '../images/Adidas/Adidas-XLPR.jpg',
-            price: 400,
-            countInStock: 12,
-            rating: 3,
-            numReviews: 0,
-            description: 'Adidas XLPR'
-        },
-        {
-            _id: '68',
-            name: 'Adidas ZX',
-            category: 'Shoes',
-            image: '../images/Adidas/Adidas-ZX.jpg',
-            price: 450,
-            countInStock: 0,
-            rating: 5,
-            numReviews: 1,
-            description: 'Adidas ZX'
-        },
-        {
-            _id: '69',
-            name: 'Adidas Sandals',
-            category: 'Shoes',
-            image: '../images/Adidas/Adidas-Sandals.jpg',
-            price: 300,
-            countInStock: 10,
-            rating: 2,
-            numReviews: 0,
-            description: 'Adidas Sandals'
-        },
-        {
-            _id: '70',
-            name: 'Nike Air Max Axis',
-            category: 'Shoes',
-            image: '../images/Nike/Nike-Air-Max-Axis.jpg',
-            price: 400,
-            countInStock: 16,
-            rating: 5,
-            numReviews: 1,
-            description: 'Nike Air Max'
-        },
-        {
-            _id: '71',
-            name: 'Nike Air Max Command',
-            category: 'Shoes',
-            image: '../images/Nike/Nike-Air-Max-Command.jpg',
-            price: 450,
-            countInStock: 12,
-            rating: 4.5,
-            numReviews: 1,
-            description: 'Nike Air Max'
-        },
-        {
-            _id: '72',
-            name: 'Nike Air Max Excee',
-            category: 'Shoes',
-            image: '../images/Nike/Nike-Air-Max-Excee.jpg',
-            price: 750,
-            countInStock: 13,
-            rating: 3,
-            numReviews: 0,
-            description: 'Nike Air Max'
-        },
-        {
-            _id: '73',
-            name: 'Nike Air Max Impact',
-            category: 'Shoes',
-            image: '../images/Nike/Nike-Air-Max-Impact.jpg',
-            price: 600,
-            countInStock: 11,
-            rating: 4,
-            numReviews: 0,
-            description: 'Nike Air Max'
-        },
-        {
-            _id: '74',
-            name: 'Nike Air Max Zephyr',
-            category: 'Shoes',
-            image: '../images/Nike/Nike-Air-Max-Zephyr.jpg',
-            price: 850,
-            countInStock: 18,
-            rating: 5,
-            numReviews: 3,
-            description: 'Nike Air Max'
-        },
-        {
-             _id: '75',
-            name: 'Air Jordan ADG',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-ADG.jpg',
-            price: 600,
-            countInStock: 19,
-            rating: 5,
-            numReviews: 2,
-            description: 'Air Jordan ADG'
-        },
-        {
-            _id: '76',
-            name: 'Air Jordan Flight',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-Flight.jpg',
-            price: 550,
-            countInStock: 1,
-            rating: 4,
-            numReviews: 0,
-            description: 'Air Jordan Flight'
-        },
-        {
-            _id: '77',
-            name: 'Air Jordan Retro 6',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-Retro6.jpg',
-            price: 800,
-            countInStock: 2,
-            rating: 5,
-            numReviews: 1,
-            description: 'Air Jordan Retro 6'
-        },
-        {
-            _id: '78',
-            name: 'Air Jordan XI',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-XI.jpg',
-            price: 300,
-            countInStock: 3,
-            rating: 3,
-            numReviews: 2,
-            description: 'Air Jordan XI'
-        },
-        {
-            _id: '79',
-            name: 'Air Jordan High Dior',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-High-Dior.jpg',
-            price: 450,
-            countInStock: 2,
-            rating: 3,
-            numReviews: 0,
-            description: 'Air Jordan High Dior'
-        },
-        {
-            _id: '80',
-            name: 'Air Jordan Retro 7',
-            category: 'Shoes',
-            image: '../images/Air Jordan/Air-Jordan-Retro7.jpeg',
-            price: 980,
-            countInStock: 1,
-            rating: 5,
-            numReviews: 5,
-            description: 'Air Jordan Retro 7'
         },
         {
             _id: '81',
