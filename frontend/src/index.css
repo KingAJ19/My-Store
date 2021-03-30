@@ -70,6 +70,9 @@ ul{
 li{
   margin-top: 1rem;
 }
+input, 
+select, 
+textarea,
 button{
   padding: 1rem;
   border-radius: 0.7rem;
@@ -79,10 +82,20 @@ button{
   font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0c040;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
   width: 100%;
+}
+button{
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+button:hover,
+input:hover,
+select:hover,
+textarea:hover{
+  border: 0.11rem #2a2b2b solid;
 }
 button:hover{
   border: 0.11rem #2a2b2b solid;
