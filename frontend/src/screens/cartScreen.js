@@ -17,4 +17,4 @@ export default function CartScreen(props){
             <p>ADD TO CART : ProductID: {productId} Qty: {qty}</p>
         </div>
     )
-}
+} 
