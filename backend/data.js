@@ -330,6 +330,7 @@ const data = {
             price: 800,
             countInStock: 3,
             rating: 5,
+            brand: 'Watches',
             numReviews: 2,
             description: 'Tsikolia Seven Watch'
         },
@@ -340,6 +341,7 @@ const data = {
             price: 400,
             countInStock: 1,
             rating: 3.2,
+            brand: 'Watches',
             numReviews: 1,
             description: 'Candino Swiss Watch'
         },
@@ -350,6 +352,7 @@ const data = {
             price: 310,
             countInStock: 0,
             rating: 3.5,
+            brand: 'Watches',
             numReviews: 3,
             description: 'Festina Prestige Watch'
         },
@@ -360,6 +363,7 @@ const data = {
             price: 200,
             countInStock: 8,
             rating: 2.0,
+            brand: 'Watches',
             numReviews: 0,
             description: 'Quartz Classic Watch'
         },
@@ -370,6 +374,7 @@ const data = {
             price: 300,
             countInStock: 23,
             rating: 3,
+            brand: 'Watches',
             numReviews: 1,
             description: 'Silver Watch'
         },
@@ -379,6 +384,7 @@ const data = {
             image: '../images/Watches/Smart-Watch.jpg',
             price: 380,
             countInStock: 10,
+            brand: 'Watches',
             rating: 3.4,
             numReviews: 5,
             description: 'Smart Watch'
@@ -390,6 +396,7 @@ const data = {
             price: 500,
             countInStock: 17,
             rating: 4.7,
+            brand: 'Headphones',
             numReviews: 8,
             description: 'Beats By Dre Headphones: Black'
         },
@@ -400,6 +407,7 @@ const data = {
             price: 650,
             countInStock: 0,
             rating: 5,
+            brand: 'Headphones',
             numReviews: 7,
             description: 'Boat Boom Headphones: Black & Blue'
         },
@@ -410,6 +418,7 @@ const data = {
             price: 400,
             countInStock: 11,
             rating: 4.2,
+            brand: 'Headphones',
             numReviews: 3,
             description: 'Bose SoundLink Headphones: Black'
         },
@@ -419,6 +428,7 @@ const data = {
             image: '../images/Headphones/HiFi-Headphones.jpg',
             price: 300,
             countInStock: 17,
+            brand: 'Headphones',
             rating: 3.1,
             numReviews: 3,
             description: 'HiFi Headphones: Black & Grey'
@@ -429,6 +439,7 @@ const data = {
             image: '../images/Headphones/Koss-KPH30-Headphones.jpg',
             price: 370,
             countInStock: 100,
+            brand: 'Headphones',
             rating: 2.9,
             numReviews: 2,
             description: 'Koss KPH30 Headphones: Grey'
@@ -439,6 +450,7 @@ const data = {
             image: '../images/Headphones/Microsoft-Surface-Headphones.jpg',
             price: 420,
             countInStock: 12,
+            brand: 'Headphones',
             rating: 4.1,
             numReviews: 6,
             description: 'Microsoft Surface Headphones: White'
@@ -449,6 +461,7 @@ const data = {
             image: '../images/Headphones/Volkano-Impulse.jpg',
             price: 300,
             countInStock: 2,
+            brand: 'Headphones',
             rating: 2.7,
             numReviews: 3,
             description: 'Volkano Pulse Headphones: Black'
@@ -459,6 +472,7 @@ const data = {
             image: '../images/Headphones/XCD-Headphones.jpg',
             price: 120,
             countInStock: 7,
+            brand: 'Headphones',
             rating: 2.1,
             numReviews: 1,
             description: 'XCD Headphones: Black'
@@ -469,6 +483,7 @@ const data = {
             image: '../images/Hats/Baseball-Hat.jpg',
             price: 70,
             countInStock: 3,
+            brand: 'Hats',
             rating: 2.5,
             numReviews: 0,
             description: 'Baseball Hat: Black'
@@ -480,6 +495,7 @@ const data = {
             price: 90,
             countInStock: 12,
             rating: 3,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Beanie: Teal'
         },
@@ -490,6 +506,7 @@ const data = {
             price: 50,
             countInStock: 0,
             rating: 3,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Bucket Hat: Black'
         },
@@ -500,6 +517,7 @@ const data = {
             price: 70,
             countInStock: 1,
             rating: 3.5,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Cricket Hat: Blue'
         },
@@ -510,6 +528,7 @@ const data = {
             price: 150,
             countInStock: 22,
             rating: 4,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Daiwa Cap: Black'
         },
@@ -520,6 +539,7 @@ const data = {
             price: 100,
             countInStock: 3,
             rating: 3,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Fisherman Hat: Black'
         },
@@ -530,6 +550,7 @@ const data = {
             price: 80,
             countInStock: 8,
             rating: 4.2,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Summer Hat: Brown'
         },
@@ -540,6 +561,7 @@ const data = {
             price: 40,
             countInStock: 7,
             rating: 2,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Sun Hat: Red'
         },
@@ -550,6 +572,7 @@ const data = {
             price: 150,
             countInStock: 11,
             rating: 4,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Trilby Hat: Brown'
         },
@@ -560,6 +583,7 @@ const data = {
             price: 90, 
             countInStock: 1,
             rating: 3,
+            brand: 'Hats',
             numReviews: 0,
             description: 'Trucker Hat: Gold'
         },
@@ -569,6 +593,7 @@ const data = {
             image: '../images/Glasses/Asteri-Glasses.jpg',
             price: 290,
             countInStock: 17,
+            brand: 'Glasses',
             rating: 3,
             numReviews: 0,
             description: 'Asteri Glasses: Black'
@@ -580,6 +605,7 @@ const data = {
             price: 150,
             countInStock: 15,
             rating: 4,
+            brand: 'Glasses',
             numReviews: 0,
             description: 'Camo Glasses'
         },
@@ -590,6 +616,7 @@ const data = {
             price: 400,
             countInStock: 13,
             rating: 5,
+            brand: 'Glasses',
             numReviews: 0,
             description: 'Dior Glasses: Black & Gold'
         },
@@ -600,6 +627,7 @@ const data = {
             price: 300,
             countInStock: 17,
             rating: 4,
+            brand: 'Glasses',
             numReviews: 0,
             description: 'Paige Glasses: Blue'
         },
@@ -609,6 +637,7 @@ const data = {
             image: '../images/Glasses/Safety-Glasses.jpg',
             price: 100,
             countInStock: 16,
+            brand: 'Glasses',
             rating: 2,
             numReviews: 0,
             description: 'Safety Glasses: Black & Gold'
@@ -620,6 +649,7 @@ const data = {
             price: 400,
             countInStock: 19,
             rating: 4,
+            brand: 'Glasses',
             numReviews: 0,
             description: 'Salvatore Glasses: Black'
         },
@@ -629,6 +659,7 @@ const data = {
             image: '../images/Hoodies/Normal/Blue-Hoodie.jpg',
             price: 500,
             countInStock: 21,
+            brand: 'Hoodies',
             rating: 5,
             numReviews: 2,
             description: 'Hoodie: Blue'
@@ -640,6 +671,7 @@ const data = {
             price: 300,
             countInStock: 100,
             rating: 3,
+            brand: 'Hoodies',
             numReviews: 1,
             description: 'Hoodie: Grey'
         },
@@ -648,6 +680,7 @@ const data = {
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Orange-Hoodie.jpg',
             price: 450,
+            brand: 'Hoodies',
             countInStock: 76,
             rating: 4,
             numReviews: 2,
@@ -660,6 +693,7 @@ const data = {
             price: 400,
             countInStock: 55,
             rating: 4,
+            brand: 'Hoodies',
             numReviews: 2,
             description: 'Hoodie: Pink'
         },
@@ -670,6 +704,7 @@ const data = {
             price: 250,
             countInStock: 65,
             rating: 3,
+            brand: 'Hoodies',
             numReviews: 0,
             description: 'Hoodie: Red'
         },
@@ -680,6 +715,7 @@ const data = {
             price: 600,
             countInStock: 5,
             rating: 5,
+            brand: 'Hoodies',
             numReviews: 4,
             description: 'Hoodie: Colorful'
         },
@@ -690,6 +726,7 @@ const data = {
             price: 800,
             countInStock: 3,
             rating: 5,
+            brand: 'Hoodies',
             numReviews: 1,
             description: 'Hoodie: Champion'
         },
@@ -698,6 +735,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Arnold.jpg',
             price: 400,
+            brand: 'Puma',
             countInStock: 2,
             rating: 3,
             numReviews: 0,
@@ -710,6 +748,7 @@ const data = {
             price: 900,
             countInStock: 0,
             rating: 5,
+            brand: 'Puma',
             numReviews: 2,
             description: 'Puma Ferrari'
         },
@@ -720,6 +759,7 @@ const data = {
             price: 500,
             countInStock: 13,
             rating: 4,
+            brand: 'Puma',
             numReviews: 2,
             description: 'Puma Motorsport'
         },
@@ -730,6 +770,7 @@ const data = {
             price: 350,
             countInStock: 6,
             rating: 4,
+            brand: 'Puma',
             numReviews: 2,
             description: 'Puma Optic'
         },
@@ -738,6 +779,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-RSX.jpg',
             price: 550,
+            brand: 'Puma',
             countInStock: 8,
             rating: 4,
             numReviews: 2,
@@ -750,6 +792,7 @@ const data = {
             price: 600,
             countInStock: 0,
             rating: 5,
+            brand: 'Puma',
             numReviews: 0,
             description: 'Puma Viz'
         },
@@ -758,6 +801,7 @@ const data = {
             category: 'Shoes',
             image: '../images/Puma/Puma-Shuffle.jpg',
             price: 500,
+            brand: 'Puma',
             countInStock: 6,
             rating: 4.5,
             numReviews: 2,
