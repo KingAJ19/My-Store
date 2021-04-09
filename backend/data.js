@@ -16,7 +16,6 @@ const data = {
     ],
     products: [
         { 
-            _id: '1',
             name: 'Kobe Bryant Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Kobe-Jersey.jpg',
@@ -28,7 +27,6 @@ const data = {
             description: 'Kobe Bryant #24, Los Angeles Lakers Jersey'
         },
         {
-            _id: '2',
             name: 'Jimmy Butler Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Butler-Jersey.jpg',
@@ -40,7 +38,6 @@ const data = {
             description: 'Jimmy Butler #22, Miami Heat Jersey'
         },
         {
-          _id: '3',
             name: 'Stephen Curry Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Curry-Jersey.jpg',
@@ -52,7 +49,6 @@ const data = {
             description: 'Stephen Curry #30, Golden State Warriors Jersey'
         },
         {
-            _id: '3',
             name: 'Joel Embiid Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Embiid-Jersey.jpg',
@@ -64,7 +60,6 @@ const data = {
             description: 'Joel Embiid #21, Philadelphia 76ers Jersey'
         },
         {
-            _id: '4',
             name: 'Giannis Antetokounmpo Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Giannis-Jersey.jpg',
@@ -76,7 +71,6 @@ const data = {
             description: 'Giannis Antetokounmpo #34, Milwaukee Bucks Jersey'
         },
         {
-            _id: '5',
             name: 'Kyrie Irving Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Irving-Jersey.jpg',
@@ -88,7 +82,6 @@ const data = {
             description: 'Kyrie Irving #11, Brooklyn Nets Jersey'
         },
         {
-            _id: '6',
             name: 'MIchael Jordan Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Jordan-Jersey.jpg',
@@ -100,7 +93,6 @@ const data = {
             description: 'Micahel Jordan #23, Chicago Bulls Jersey'
         },
         {
-            _id: '7',
             name: 'Kawhi Leonard Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Kawhi-Jersey.jpg',
@@ -112,7 +104,6 @@ const data = {
             description: 'Kawhi Leonard #2, Los Angeles Clippers Jersey'
         },
         {
-            _id: '8',
             name: 'LeBron James Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/LeBron-Jersey.jpg',
@@ -124,7 +115,6 @@ const data = {
             description: 'LeBron James #23, Los Angeles Lakers Jersey'
         },
         {
-            _id: '9',
             name: 'Damian Lillard Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Lillard-Jersey.jpg',
@@ -136,7 +126,6 @@ const data = {
             description: 'Damian Lillard #0, Portland Trailblazers Jersey'
         },
         {
-            _id: '10',
             name: 'Karl-Anthony Towns Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Towns-Jersey.jpg',
@@ -148,7 +137,6 @@ const data = {
             description: 'Karl-Anthony Towns #32, Minnesota Timberwolves Jersey'
         },
         {
-            _id: '11',
             name: 'Russell Westbrook Jersey',
             category: 'NBA Jerseys',
             image: '../images/Jerseys/Basketball/Westbrook-Jersey.jpg',
@@ -160,7 +148,6 @@ const data = {
             description: 'Russell Westbrook #4, Washington Wizards Jersey'
         },
         {
-            _id: '12',
             name: 'Adama Traore Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Adama-Jersey.jpg',
@@ -172,7 +159,6 @@ const data = {
             description: 'Adama Traore #37, Wolverhampton Wanderers Jersey'
         },
         {
-            _id: '13',
             name: 'Pierre-Emerick Aubameyang Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Aubameyang-Jersey.jpg',
@@ -184,7 +170,6 @@ const data = {
             description: 'Pierre-Emerick Aubameyang #14, Arsenal Jersey'
         },
         {
-            _id: '14',
             name: 'Bruno Fernandes Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Bruno-Jersey.jpg',
@@ -196,7 +181,6 @@ const data = {
             description: 'Bruno Fernandes #18, Manchester United Jersey'
         },
         {
-            _id: '15',
             name: 'Kevin De Bruyne Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/DeBruyne-Jersey.jpg',
@@ -208,7 +192,6 @@ const data = {
             description: 'Kevin De Bruyne #17, Manchester City Jersey'
         },
         {
-             _id: '16',
             name: 'Erling Haaland Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Haaland-Jersey.jpg',
@@ -220,7 +203,6 @@ const data = {
             description: 'Erling Haaland #9, Borussia Dortmund Jersey'
         },
         {
-             _id: '17',
             name: 'Danny Ings Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ings-Jersey.jpg',
@@ -232,7 +214,6 @@ const data = {
             description: 'Danny Ings #9, Southampton Jersey'
         },
         {
-             _id: '18',
             name: 'Robert Lewandowski Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Lewandowski-Jersey.jpg',
@@ -244,7 +225,6 @@ const data = {
             description: 'Robert Lewandowski #9, Bayern Munich Jersey'
         },
         {
-             _id: '19',
             name: 'Lionel Messi Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Messi-Jersey.jpg',
@@ -256,7 +236,6 @@ const data = {
             description: 'Lionel Messi #10, FC Barcelona Jersey'
         },
         {
-             _id: '19',
             name: 'Neymar Jr Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Neymar-Jersey.jpg',
@@ -268,7 +247,6 @@ const data = {
             description: 'Neymar Jr #10, Paris Saint-Germain Jersey'
         },
         {
-             _id: '20',
             name: 'Sergio Ramos Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ramos-Jersey.jpg',
@@ -280,7 +258,6 @@ const data = {
             description: 'Sergio Ramos #4, Real Madrid Jersey'
         },
         {
-             _id: '21',
             name: 'Richarlison Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Richarlison-Jersey.jpg',
@@ -292,7 +269,6 @@ const data = {
             description: 'Richarlison #7, Everton Jersey'
         },
         {
-             _id: '22',
             name: 'Cristiano Ronaldo Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Ronaldo-Jersey.jpg',
@@ -304,7 +280,6 @@ const data = {
             description: 'Cristiano Ronaldo #7, Juventus Jersey'
         },
         {
-            _id: '23',
             name: 'Mohamed Salah Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Salah-Jersey.jpg',
@@ -316,7 +291,6 @@ const data = {
             description: 'Mohamed Salah #11, Liverpool FC Jersey'
         },
         {
-            _id: '23',
             name: 'Son Heung-min Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Son-Jersey.jpg',
@@ -328,7 +302,6 @@ const data = {
             description: 'Son Heung-min #7, Tottenham Hotspur Jersey'
         },
         {
-            _id: '24',
             name: 'Jamie Vardy Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Vardy-Jersey.jpg',
@@ -340,7 +313,6 @@ const data = {
             description: 'Jamie Vardy #11, Leicester City Jersey'
         },
         {
-            _id: '25',
             name: 'Timo Werner Jersey',
             category: 'Soccer Jerseys',
             image: '../images/Jerseys/Soccer/Werner-Jersey.jpg',
@@ -352,7 +324,6 @@ const data = {
             description: 'Timo Werner #11, Chelsea FC Jersey'
         },
         {
-            _id: '26',
             name: 'Tsikolia Seven Watch',
             category: 'Watches',
             image: '../images/Watches/Tsikolia-Seven.jpg',
@@ -363,7 +334,6 @@ const data = {
             description: 'Tsikolia Seven Watch'
         },
         {
-            _id: '27',
             name: 'Candino Swiss Watch',
             category: 'Watches',
             image: '../images/Watches/Candino-Swiss.jpg',
@@ -374,7 +344,6 @@ const data = {
             description: 'Candino Swiss Watch'
         },
         {
-            _id: '28',
             name: 'Festina Prestige Watch',
             category: 'Watches',
             image: '../images/Watches/Festina-Prestige.jpg',
@@ -385,7 +354,6 @@ const data = {
             description: 'Festina Prestige Watch'
         },
         {
-             _id: '30',
             name: 'Quartz Classic Watch',
             category: 'Watches',
             image: '../images/Watches/Quartz-Classic.jpg',
@@ -396,7 +364,6 @@ const data = {
             description: 'Quartz Classic Watch'
         },
         {
-             _id: '31',
             name: 'Silver Watch',
             category: 'Watches',
             image: '../images/Watches/Silver-Watch.jpg',
@@ -407,7 +374,6 @@ const data = {
             description: 'Silver Watch'
         },
         {
-             _id: '32',
             name: 'Smart Watch',
             category: 'Watches',
             image: '../images/Watches/Smart-Watch.jpg',
@@ -418,7 +384,6 @@ const data = {
             description: 'Smart Watch'
         },
         {
-             _id: '31',
             name: 'Beats By Dre Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Beats-Headphones.jpg',
@@ -429,7 +394,6 @@ const data = {
             description: 'Beats By Dre Headphones: Black'
         },
         {
-             _id: '32',
             name: 'Boat Boom Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Boat-Boom-Headphones.jpg',
@@ -440,7 +404,6 @@ const data = {
             description: 'Boat Boom Headphones: Black & Blue'
         },
         {
-             _id: '33',
             name: 'Bose SoundLink Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Bose-SoundLink-Headphones..jpeg',
@@ -451,7 +414,6 @@ const data = {
             description: 'Bose SoundLink Headphones: Black'
         },
         {
-             _id: '34',
             name: 'HiFi Headphones',
             category: 'Headphones',
             image: '../images/Headphones/HiFi-Headphones.jpg',
@@ -462,7 +424,6 @@ const data = {
             description: 'HiFi Headphones: Black & Grey'
         },
         {
-             _id: '36',
             name: 'Koss KPH30 Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Koss-KPH30-Headphones.jpg',
@@ -473,7 +434,6 @@ const data = {
             description: 'Koss KPH30 Headphones: Grey'
         },
         {
-             _id: '37',
             name: 'Microsoft Surface Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Microsoft-Surface-Headphones.jpg',
@@ -484,7 +444,6 @@ const data = {
             description: 'Microsoft Surface Headphones: White'
         },
         {
-             _id: '38',
             name: 'Volkano Pulse Headphones',
             category: 'Headphones',
             image: '../images/Headphones/Volkano-Impulse.jpg',
@@ -495,7 +454,6 @@ const data = {
             description: 'Volkano Pulse Headphones: Black'
         },
         {
-             _id: '39',
             name: 'XCD Headphones',
             category: 'Headphones',
             image: '../images/Headphones/XCD-Headphones.jpg',
@@ -506,7 +464,6 @@ const data = {
             description: 'XCD Headphones: Black'
         },
         {
-             _id: '41',
             name: 'Baseball Hat',
             category: 'Hats',
             image: '../images/Hats/Baseball-Hat.jpg',
@@ -517,7 +474,6 @@ const data = {
             description: 'Baseball Hat: Black'
         },
         {
-             _id: '42',
             name: 'Beanie',
             category: 'Hats',
             image: '../images/Hats/Beanie-Hat.jpg',
@@ -528,7 +484,6 @@ const data = {
             description: 'Beanie: Teal'
         },
         {
-             _id: '43',
             name: 'Bucket Hat',
             category: 'Hats',
             image: '../images/Hats/Bucket-Hat.jpg',
@@ -539,7 +494,6 @@ const data = {
             description: 'Bucket Hat: Black'
         },
         {
-           _id: '44',
             name: 'Cricket Hat',
             category: 'Hats',
             image: '../images/Hats/Cricket-Hat.jpg',
@@ -550,7 +504,6 @@ const data = {
             description: 'Cricket Hat: Blue'
         },
         {
-            _id: '45',
             name: 'Daiwa Cap',
             category: 'Hats',
             image: '../images/Hats/Daiwa-Cap.jpg',
@@ -561,7 +514,6 @@ const data = {
             description: 'Daiwa Cap: Black'
         },
         {
-            _id: '46',
             name: 'Fisherman Hat',
             category: 'Hats',
             image: '../images/Hats/Fisherman-Hat.jpeg',
@@ -572,7 +524,6 @@ const data = {
             description: 'Fisherman Hat: Black'
         },
         {
-            _id: '47',
             name: 'Summer Hat',
             category: 'Hats',
             image: '../images/Hats/Summer-Hats.jpg',
@@ -583,7 +534,6 @@ const data = {
             description: 'Summer Hat: Brown'
         },
         {
-            _id: '48',
             name: 'Sun Hat',
             category: 'Hats',
             image: '../images/Hats/Sun-Hats.jpg',
@@ -594,7 +544,6 @@ const data = {
             description: 'Sun Hat: Red'
         },
         {
-            _id: '49',
             name: 'Trilby Hat',
             category: 'Hats',
             image: '../images/Hats/Trilby-Hat.jpg',
@@ -605,7 +554,6 @@ const data = {
             description: 'Trilby Hat: Brown'
         },
         {
-            _id: '50',
             name: 'Trucker Hat',
             category: 'Hats',
             image: '../images/Hats/Trucker-Hat.jpg',
@@ -616,7 +564,6 @@ const data = {
             description: 'Trucker Hat: Gold'
         },
         {
-            _id: '51',
             name: 'Asteri Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Asteri-Glasses.jpg',
@@ -627,7 +574,6 @@ const data = {
             description: 'Asteri Glasses: Black'
         },
         {
-            _id: '52',
             name: 'Camo Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Camo-Glasses.jpg',
@@ -638,7 +584,6 @@ const data = {
             description: 'Camo Glasses'
         },
         {
-            _id: '53',
             name: 'Dior Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Dior-Glasses.jpg',
@@ -649,7 +594,6 @@ const data = {
             description: 'Dior Glasses: Black & Gold'
         },
         {
-            _id: '54',
             name: 'Paige Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Paige-Glasses.jpg',
@@ -660,7 +604,6 @@ const data = {
             description: 'Paige Glasses: Blue'
         },
         {
-            _id: '55',
             name: 'Safety Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Safety-Glasses.jpg',
@@ -671,7 +614,6 @@ const data = {
             description: 'Safety Glasses: Black & Gold'
         },
         {
-            _id: '56',
             name: 'Salvatore Glasses',
             category: 'Glasses',
             image: '../images/Glasses/Salvatore-Glasses.jpg',
@@ -682,7 +624,6 @@ const data = {
             description: 'Salvatore Glasses: Black'
         },
         {
-            _id: '57',
             name: 'Blue Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Blue-Hoodie.jpg',
@@ -693,7 +634,6 @@ const data = {
             description: 'Hoodie: Blue'
         },
         {
-            _id: '59',
             name: 'Grey Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Grey-Hoodie.jpg',
@@ -704,7 +644,6 @@ const data = {
             description: 'Hoodie: Grey'
         },
         {
-            _id: '60',
             name: 'Orange Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Orange-Hoodie.jpg',
@@ -715,7 +654,6 @@ const data = {
             description: 'Hoodie: Orange'
         },
         {
-            _id: '61',
             name: 'Pink Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Pink-Hoodie.jpg',
@@ -726,7 +664,6 @@ const data = {
             description: 'Hoodie: Pink'
         },
         {
-            _id: '62',
             name: 'Red Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Red-Hoodie.jpg',
@@ -737,7 +674,6 @@ const data = {
             description: 'Hoodie: Red'
         },
         {
-            _id: '63',
             name: 'Colorful Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Paint-Hoodies.jpg',
@@ -748,7 +684,6 @@ const data = {
             description: 'Hoodie: Colorful'
         },
         {
-            _id: '64',
             name: 'Champion Hoodie',
             category: 'Hoodies',
             image: '../images/Hoodies/Normal/Champion-Hoodie.jpg',
@@ -759,7 +694,6 @@ const data = {
             description: 'Hoodie: Champion'
         },
         {
-            _id: '81',
             name: 'Puma Arnold',
             category: 'Shoes',
             image: '../images/Puma/Puma-Arnold.jpg',
@@ -770,7 +704,6 @@ const data = {
             description: 'Puma Arnold'
         },
         {
-            _id: '82',
             name: 'Puma Ferrari',
             category: 'Shoes',
             image: '../images/Puma/Puma-Ferrari.jpg',
@@ -781,7 +714,6 @@ const data = {
             description: 'Puma Ferrari'
         },
         {
-            _id: '83',
             name: 'Puma Motorsport',
             category: 'Shoes',
             image: '../images/Puma/Puma-Motorsport.jpg',
@@ -792,7 +724,6 @@ const data = {
             description: 'Puma Motorsport'
         },
         {
-            _id: '84',
             name: 'Puma Optic',
             category: 'Shoes',
             image: '../images/Puma/Puma-Optic.jpg',
@@ -803,7 +734,6 @@ const data = {
             description: 'Puma Optic'
         },
         {
-            _id: '85',
             name: 'Puma RSX',
             category: 'Shoes',
             image: '../images/Puma/Puma-RSX.jpg',
@@ -814,7 +744,6 @@ const data = {
             description: 'Puma RSX'
         },
         {
-            _id: '86',
             name: 'Puma Viz',
             category: 'Shoes',
             image: '../images/Puma/Puma-Viz.jpg',
@@ -825,7 +754,6 @@ const data = {
             description: 'Puma Viz'
         },
         {
-            _id: '87',
             name: 'Puma Shuffle',
             category: 'Shoes',
             image: '../images/Puma/Puma-Shuffle.jpg',
