@@ -6,4 +6,4 @@ export const generateToken = (user) => {
             expiresIn: '30d',
         }
     )
-}
+} 
