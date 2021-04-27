@@ -241,3 +241,12 @@ img.large{
 .dropdown:hover .dropdown-content{
   display: block;
 }
+
+/* Checkout-Steps */
+
+.checkout-steps > div{
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+}
