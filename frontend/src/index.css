@@ -67,6 +67,9 @@ ul{
   margin: 0;
   list-style: none;
 }
+.loading{
+  display: block !important;
+}
 li{
   margin-top: 1rem;
 }
