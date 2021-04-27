@@ -67,9 +67,6 @@ ul{
   margin: 0;
   list-style: none;
 }
-.loading{
-  display: block !important;
-}
 li{
   margin-top: 1rem;
 }
@@ -186,6 +183,9 @@ img.large{
 .rating span:last-child{
   color: #404040;
 }
+.loading{
+  display: block !important;
+}
 .success{
   color: #20a020
 }
@@ -234,9 +234,10 @@ img.large{
   padding: 1rem;
   z-index: 1;
   background-color: #2a2b2b;
+  margin: 0;
   margin-top: 0.4rem;
   border-radius: 0.5rem;
 }
-.dropdown:hover{
+.dropdown:hover .dropdown-content{
   display: block;
 }
