@@ -25,7 +25,7 @@ export default function OrderScreen(props){
                                 <p>
                                     <strong>Name: </strong> {order.shippingAddress.fullName} <br />
                                     <strong>Address: </strong> {order.shippingAddress.address},
-                                    {order.shippingAddress.city}, {order.shippingAddress.postalCode}, 
+                                    {order.shippingAddress.city}, {' '} {order.shippingAddress.postalCode}, 
                                     {order.shippingAddress.country}
                                 </p>
                             </div>
@@ -34,7 +34,7 @@ export default function OrderScreen(props){
                             <div className="card card-body">
                                 <h2>Payment</h2>
                                 <p>
-                                    <strong>Method: </strong> {cart.paymentMethod}
+                                    <strong>Method: </strong> {order.paymentMethod}
                                 </p>
                             </div>
                         </li>
@@ -43,7 +43,7 @@ export default function OrderScreen(props){
                                 <h2>Ordered Items</h2>
                                 <ul>
                         {
-                            cart.cartItems.map((item) => (
+                            order.orderItems.map((item) => (
                                 <li key={item.product}>
                                 <div className="row">
                                     <div>
@@ -73,38 +73,29 @@ export default function OrderScreen(props){
                                 <li>
                                     <div className="row">
                                         <div>Items</div>
-                                        <div>R{cart.itemsPrice}</div>
+                                        <div>R{order.itemsPrice}</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="row">
                                         <div>Shipping</div>
-                                        <div>R{cart.shippingPrice}</div>
+                                        <div>R{order.shippingPrice}</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="row">
                                         <div>Tax</div>
-                                        <div>R{cart.taxPrice}</div>
+                                        <div>R{order.taxPrice}</div>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="row">
                                         <div>Total</div>
                                         <strong>
-                                        <div>R{cart.totalPrice}</div>
+                                        <div>R{order.totalPrice}</div>
                                         </strong>
                                     </div>
                                 </li>
-                                <li>
-                                    <button type="submit" className="primary block" onClick={placeOrderHandler}
-                                    disabled={cart.cartItems.length === 0}
-                                    >Place Order</button>
-                                </li>
-                                {
-                                    loading && <LoadingBox></LoadingBox>
-                                }
-                                {error && <MessageBox variant="danger">{error}</MessageBox>}
                             </ul>
                         </div>
                 </div>
