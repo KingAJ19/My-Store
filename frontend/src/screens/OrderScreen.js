@@ -8,27 +8,11 @@ import CheckoutSteps from '../components/CheckoutSteps';
 import { ORDER_CREATE_RESET } from '../constants/orderConstants';
 
 export default function OrderScreen(props){
-    const cart = useSelector((state) => state.cart);
-    if(!cart.paymentMethod){
-        props.history.push('/payment')
-    }
-    const orderCreate = useSelector(state => state.orderCreate);
-    const { loading, success, error, order } = orderCreate;
-    const toPrice = (num) => Number(num.toFixed(2)); //5.123 = "5.12" => 5.12
-    cart.itemsPrice = toPrice(cart.cartItems.reduce((a, c) => a + c.qty * c.price, 0))
-    cart.shippingPrice = cart.itemsPrice > 100? toPrice(0): toPrice(10);
-    cart.taxPrice = toPrice(0.15 * cart.itemsPrice);
-    cart.totalPrice = cart.itemsPrice + cart.shippingPrice + cart.taxPrice;
+    const orderId = props.match.params.id;
     const dispatch = useDispatch();
-    const placeOrderHandler = () => {
-        dispatch(createOrder({...cart, orderItems: cart.cartItems}))
-    }
     useEffect(() => {
-        if(success){
-            props.history.push(`/order${order._id}`);
-            dispatch({ type: ORDER_CREATE_RESET});
-        }
-    }, [dispatch, order, props.history, success]);
+        dispatch(detailsOrder(orderId));
+    }, [dispatch, orderId]);
     return (
         <div>
             <CheckoutSteps step1 step2 step3 step4></CheckoutSteps>
