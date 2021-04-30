@@ -1,5 +1,5 @@
 import Axios from 'axios'; 
-import { ORDER_CREATE_FAIL, ORDER_CREATE_REQUEST, ORDER_CREATE_SUCCESS } from "../constants/orderConstants";
+import { ORDER_CREATE_FAIL, ORDER_CREATE_REQUEST, ORDER_CREATE_SUCCESS, ORDER_DETAILS_FAIL, ORDER_DETAILS_REQUEST } from "../constants/orderConstants";
 import { CART_EMPTY } from '../constants/cartConstants';
 
 export const createOrder = (order) => async (dispatch, getState) => {
@@ -19,5 +19,18 @@ export const createOrder = (order) => async (dispatch, getState) => {
         payload: error.response && error.response.data.message ?
         error.response.data.message : error.message
     })
+    }
+}
+
+export const detailsOrder = (orderId) => (dispatch, getSate) => {
+    dispatch({ type: ORDER_DETAILS_REQUEST, payload: orderId})
+    try {
+        const { data } = await Axios.get(`/api/orders/${orderId}`, {
+            headers: { Authorization: `Bearer ${userInfo.token}`}
+        });
+    } catch (error) {
+        const message = error.response && error.response.data.message ?
+        error.response.data.message : error.message;
+        dispatch({ type: ORDER_DETAILS_FAIL, payload: message});
     }
 }
