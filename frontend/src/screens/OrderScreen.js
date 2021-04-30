@@ -1,11 +1,9 @@
 import {React, useEffect} from 'react';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { createOrder } from '../actions/orderActions';
 import CheckoutSteps from '../components/CheckoutSteps';
-import { ORDER_CREATE_RESET } from '../constants/orderConstants';
 
 export default function OrderScreen(props){
     const orderId = props.match.params.id;
