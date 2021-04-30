@@ -15,6 +15,7 @@ export default function OrderScreen(props){
     }, [dispatch, orderId]);
     return loading? (<LoadingBox></LoadingBox>): error? (<MessageBox variant="danger">{error}</MessageBox>) :  (
         <div>
+            <h1>Order {order._id}</h1>
             <div className="row top">
                 <div className="col-2">
                     <ul>
@@ -22,10 +23,10 @@ export default function OrderScreen(props){
                             <div className="card card-body">
                                 <h2>Shipping</h2>
                                 <p>
-                                    <strong>Name: </strong> {cart.shippingAddress.fullName} <br />
-                                    <strong>Address: </strong> {cart.shippingAddress.address},
-                                    {cart.shippingAddress.city}, {cart.shippingAddress.postalCode}, 
-                                    {cart.shippingAddress.country}
+                                    <strong>Name: </strong> {order.shippingAddress.fullName} <br />
+                                    <strong>Address: </strong> {order.shippingAddress.address},
+                                    {order.shippingAddress.city}, {order.shippingAddress.postalCode}, 
+                                    {order.shippingAddress.country}
                                 </p>
                             </div>
                         </li>
