@@ -1,19 +1,20 @@
 import {React, useEffect} from 'react';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import CheckoutSteps from '../components/CheckoutSteps';
+import { detailsOrder } from '../actions/orderActions';
 
 export default function OrderScreen(props){
     const orderId = props.match.params.id;
+    const orderDetails = useSelector((state) => state.orderDetails);
+    const { order, loading, error } = orderDetails
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(detailsOrder(orderId));
     }, [dispatch, orderId]);
-    return (
+    return loading? (<LoadingBox></LoadingBox>): error? (<MessageBox variant="danger">{error}</MessageBox>) :  (
         <div>
-            <CheckoutSteps step1 step2 step3 step4></CheckoutSteps>
             <div className="row top">
                 <div className="col-2">
                     <ul>
