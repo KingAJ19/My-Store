@@ -15,8 +15,7 @@ orderRouter.post('/', expressAsyncHandler(async(req, res) => {
             itemsPrice: req.body.itemsPrice,
             shippingPrice: req.body.shippingPrice,
             taxPrice: req.body.taxPrice,
-            totalPrice: req.body.totalPrice,
-            user: req.user._id
+            totalPrice: req.body.totalPrice
         })
         const createdOrder = await order.save();
         res.status(201).send({ message: 'New Order Created', order: createdOrder})
